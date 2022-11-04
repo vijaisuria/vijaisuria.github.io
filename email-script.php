@@ -1,7 +1,7 @@
 <?php
 if (isset($_POST['sendMailBtn'])) {
     $fromEmail = $_POST['fromEmail'];
-    $toEmail = $_POST['toEmail'];
+    $toEmail = "vijaisuria87@gmail.com";
     $subjectName = $_POST['subject'];
     $message = $_POST['message'];
 
