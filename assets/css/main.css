@@ -67,6 +67,10 @@
 		vertical-align: baseline;
 	}
 
+	html, body {
+	  	overscroll-behavior-x: none;
+	}
+
 	canvas {
 		position: fixed;
 		overflow: hidden;
