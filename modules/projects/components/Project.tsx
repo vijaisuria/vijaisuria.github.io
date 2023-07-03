@@ -1,5 +1,4 @@
-import { BsGithub, BsGlobe } from 'react-icons/bs';
-
+import { BsGithub, BsGlobe } from "react-icons/bs";
 interface Props {
   title: string;
   description: string;
@@ -12,9 +11,9 @@ const Project = ({ title, demo, description, github, scrollTo }: Props) => {
   return (
     <div
       className="flex h-max w-72 flex-col rounded-3xl bg-[#1f1f1f] p-5 md:h-64 lg:h-[21rem] lg:w-96 lg:p-10"
-      id={scrollTo ? 'projects' : undefined}
+      id={scrollTo ? "projects" : undefined}
     >
-      <p className="text-lg lg:text-2xl">{title}</p>
+      <p className="text-lg text-white lg:text-2xl">{title}</p>
 
       <div className="my-4 h-px w-full bg-zinc-500 lg:my-5" />
 
@@ -37,7 +36,11 @@ const Project = ({ title, demo, description, github, scrollTo }: Props) => {
 
         {demo && (
           <a
-            className="project-btn"
+            className={`project-btn ${
+              demo === "nil"
+                ? "pointer-events-none cursor-no-drop opacity-50"
+                : ""
+            }`}
             href={demo}
             target="_blank"
             rel="noreferrer"

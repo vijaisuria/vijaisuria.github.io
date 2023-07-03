@@ -1,12 +1,12 @@
-import { useEffect } from 'react';
+import { useEffect } from "react";
 
-import About from '@/modules/about';
-import Toh from '@/modules/toh';
-import Emeds from '@/modules/emeds';
-import Contact from '@/modules/contact';
-import CustomMouse from '@/modules/customMouse';
-import Hero from '@/modules/hero';
-import ProjectsList, { ProjectsHeader } from '@/modules/projects';
+import About from "@/modules/about";
+import Toh from "@/modules/toh";
+import Emeds from "@/modules/emeds";
+import Contact from "@/modules/contact";
+import CustomMouse from "@/modules/customMouse";
+import Hero from "@/modules/hero";
+import ProjectsList, { ProjectsHeader } from "@/modules/projects";
 
 export default function HomePage() {
   useEffect(() => {
@@ -25,13 +25,7 @@ export default function HomePage() {
 
       <About />
 
-      <Emeds />
-
-      <ProjectsHeader />
-
-      <Toh />
-
-      <div className="h-[20vh] md:h-[50vh]" />
+      <div className="md:h-[30vh]" />
 
       <ProjectsList />
 

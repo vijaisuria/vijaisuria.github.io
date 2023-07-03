@@ -1,10 +1,10 @@
-import { motion } from 'framer-motion';
-import { BsChevronUp } from 'react-icons/bs';
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { motion } from "framer-motion";
+import { BsChevronUp } from "react-icons/bs";
+import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 
-import ScrollOpacity from '@/common/components/ScrollOpacity';
+import ScrollOpacity from "@/common/components/ScrollOpacity";
 
-import { useMouseVariant } from '../customMouse';
+import { useMouseVariant } from "../customMouse";
 
 const Contact = () => {
   const { setMouseVariant } = useMouseVariant();
@@ -24,11 +24,11 @@ const Contact = () => {
             </h1>
 
             <p className="mt-3 text-lg text-zinc-400 lg:mt-4 lg:text-xl">
-              vijaisuriam@gmail.com
+              vijaisuria87@gmail.com
             </p>
             <a
               className="primary-gradient scale-btn hover:hover-gradient mt-4 rounded-2xl p-2 px-4 text-lg transition-all duration-300 lg:mt-6 lg:p-3 lg:px-6 lg:text-xl"
-              href="mailto:vijaisuriam@gmail.com"
+              href="mailto:vijaisuria87@gmail.com"
             >
               Contact me
             </a>
@@ -39,8 +39,8 @@ const Contact = () => {
           className="absolute bottom-20 flex flex-col items-center rounded-lg bg-transparent p-2 font-sans text-lg transition-colors hover:bg-zinc-800"
           onClick={() =>
             document
-              .getElementById('hero')
-              ?.scrollIntoView({ behavior: 'smooth' })
+              .getElementById("hero")
+              ?.scrollIntoView({ behavior: "smooth" })
           }
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 1.5, repeat: Infinity }}
@@ -70,6 +70,16 @@ const Contact = () => {
               className="scale-btn"
             >
               <FaGithub />
+            </a>
+
+            <a
+              href="https://twitter.com/vijaisuria"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Twitter"
+              className="scale-btn"
+            >
+              <FaTwitter />
             </a>
           </div>
         </div>
