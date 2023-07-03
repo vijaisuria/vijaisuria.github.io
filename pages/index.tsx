@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 
 import About from "@/modules/about";
-import Toh from "@/modules/toh";
 import Emeds from "@/modules/emeds";
 import Contact from "@/modules/contact";
 import CustomMouse from "@/modules/customMouse";
