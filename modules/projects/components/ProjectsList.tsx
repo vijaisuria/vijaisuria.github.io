@@ -21,7 +21,7 @@ seamless convenience."
             title="MIT Health Center"
             description="A robust web application powered by the MERN stack and beautifully styled with Tailwind CSS. Streamline the management of our college health center."
             github="https://github.com/vijaisuria/MIT-HC"
-            demo="nil"
+            demo="https://health-center.vercel.app/team"
           />
           <Project
             title="Multi-State Co-operative Society Management System"
