@@ -6,7 +6,7 @@ import Contact from "@/modules/contact";
 import CustomMouse from "@/modules/customMouse";
 import Hero from "@/modules/hero";
 import ProjectsList from "@/modules/projects";
-import Experience from "@/modules/experience";
+import Experience from "@/modules/education";
 
 export default function HomePage() {
   useEffect(() => {
