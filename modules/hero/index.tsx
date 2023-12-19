@@ -1,9 +1,9 @@
-import { useContext } from 'react';
-import { motion } from 'framer-motion';
+import { useContext } from "react";
+import { motion } from "framer-motion";
 
-import Header from './components/Header';
-import ScrollIndicator from './components/ScrollIndicator';
-import { ThemeContext } from '@/modules/themeContext';
+import Header from "./components/Header";
+import ScrollIndicator from "./components/ScrollIndicator";
+import { ThemeContext } from "@/modules/themeContext";
 
 const Hero = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
@@ -55,11 +55,15 @@ const Hero = () => {
 
   return (
     <section
-      className={`relative flex h-screen w-screen flex-col items-center justify-center overflow-hidden ${theme === 'dark' ? 'dark' : 'light'}`}
+      className={`relative flex h-screen w-screen flex-col items-center justify-center overflow-hidden ${
+        theme === "dark" ? "dark" : "light"
+      }`}
       id="hero"
     >
       <motion.div
-        className={`absolute top-8 flex items-center gap-5 font-sans text-lg md:gap-10 ${theme === 'dark' ? 'text-gray-100' : 'text-gray-900'}`}
+        className={`absolute top-8 flex items-center gap-5 font-sans text-lg md:gap-10 ${
+          theme === "dark" ? "text-gray-100" : "text-gray-900"
+        }`}
         initial={{ y: -20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.3, delay: 0.65 }}
@@ -68,25 +72,31 @@ const Hero = () => {
         <button
           onClick={() =>
             document
-              .getElementById('projects')
-              ?.scrollIntoView({ behavior: 'smooth' })
+              .getElementById("projects")
+              ?.scrollIntoView({ behavior: "smooth" })
           }
           className="scale-btn"
         >
           Projects
         </button>
-        <a
-          className="scale-btn"
-          href="pdf/MVS_RESUME.pdf"
-          target="_blank"
-        >
+        <a className="scale-btn" href="pdf/MVS_RESUME.pdf" target="_blank">
           Resume
         </a>
         <button
           onClick={() =>
             document
-              .getElementById('contact')
-              ?.scrollIntoView({ behavior: 'smooth' })
+              .getElementById("education")
+              ?.scrollIntoView({ behavior: "smooth" })
+          }
+          className="scale-btn"
+        >
+          Education
+        </button>
+        <button
+          onClick={() =>
+            document
+              .getElementById("contact")
+              ?.scrollIntoView({ behavior: "smooth" })
           }
           className="scale-btn"
         >

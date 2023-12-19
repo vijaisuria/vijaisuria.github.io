@@ -15,11 +15,13 @@
     "next": "13.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.6.0"
+    "react-icons": "^4.12.0",
+    "react-vertical-timeline-component": "^3.6.0"
   },
   "devDependencies": {
     "@types/node": "18.11.5",
     "@types/react": "18.0.23",
+    "@types/react-vertical-timeline-component": "^3.3.6",
     "autoprefixer": "10.4.12",
     "npm-run-all": "4.1.5",
     "postcss": "8.4.18",

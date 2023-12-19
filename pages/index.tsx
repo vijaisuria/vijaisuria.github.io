@@ -5,7 +5,8 @@ import Emeds from "@/modules/emeds";
 import Contact from "@/modules/contact";
 import CustomMouse from "@/modules/customMouse";
 import Hero from "@/modules/hero";
-import ProjectsList, { ProjectsHeader } from "@/modules/projects";
+import ProjectsList from "@/modules/projects";
+import Experience from "@/modules/experience";
 
 export default function HomePage() {
   useEffect(() => {
@@ -27,6 +28,8 @@ export default function HomePage() {
       <div className="md:h-[30vh]" />
 
       <ProjectsList />
+
+      <Experience />
 
       <Contact />
     </>
