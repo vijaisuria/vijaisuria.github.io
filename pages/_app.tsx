@@ -28,7 +28,7 @@ export default function App({ Component, pageProps }: AppProps) {
         />
         <meta
           name="google-site-verification"
-          content={process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION}
+          content="fZIGN9tZ-qZQT9oPQRkI0K-gzZc4XkbzeJmMHUH0hoc"
         />
         <link rel="icon" href="/favicon.ico" />
         <script
@@ -38,7 +38,7 @@ export default function App({ Component, pageProps }: AppProps) {
                 c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
                 t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
                 y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-              })(window, document, "clarity", "script", "${process.env.NEXT_PUBLIC_CLARITY_KEY}");
+              })(window, document, "clarity", "script", "kcbz32909px");
             `,
           }}
         />
