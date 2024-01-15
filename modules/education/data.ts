@@ -38,7 +38,8 @@ export const educationData = [
     institute: "MIT, Anna University",
     location: "Chennai, India",
     grade: "CGPA: 9.53/10",
-    achievement: "University 1st in Tamil Nadu",
+    achievement:
+      "A perennial top 10 achiever, consistently excelling in academic pursuits.",
     icon: React.createElement(LuGraduationCap),
     date: " Oct'2021 - Jul'2025",
   },
@@ -60,7 +61,7 @@ export const educationData = [
     achievement:
       "Secured preeminence as the District-Level First Rank Achiever",
     icon: React.createElement(FaSchool),
-    date: " 2019 - 2021",
+    date: "2019 - 2021",
   },
   {
     title: "SSLC",
@@ -69,6 +70,6 @@ export const educationData = [
     grade: "Percentage: 96.4%",
     achievement: "Achieved top honor as school's first-rank holder.",
     icon: React.createElement(FaSchool),
-    date: " 2018-2019",
+    date: "2018-2019",
   },
 ] as const;

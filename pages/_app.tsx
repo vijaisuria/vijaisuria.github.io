@@ -24,24 +24,13 @@ export default function App({ Component, pageProps }: AppProps) {
         />
         <meta
           name="keywords"
-          content="vijaisuria, vijai suria, vijai, suria, sde, anna, university"
+          content="vijaisuria, vijai suria, vijai, suria, sde, anna, university, mit"
         />
         <meta
           name="google-site-verification"
           content="fZIGN9tZ-qZQT9oPQRkI0K-gzZc4XkbzeJmMHUH0hoc"
         />
         <link rel="icon" href="/favicon.ico" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function(c,l,a,r,i,t,y){
-                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-              })(window, document, "clarity", "script", "kcbz32909px");
-            `,
-          }}
-        />
       </Head>
       <div id="__font" className={ArticulatCF.className}>
         <MotionConfig
