@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 
 import About from "@/modules/about";
-import Emeds from "@/modules/emeds";
+// import Emeds from "@/modules/emeds";
 import Contact from "@/modules/contact";
 import CustomMouse from "@/modules/customMouse";
 import Hero from "@/modules/hero";
