@@ -51,7 +51,7 @@ export const educationData = [
     achievement:
       "Mastered IBM-backed Full Stack skills for top-tier developer roles like Application and Cloud Developer.",
     icon: React.createElement(BiGlobe),
-    date: " Nov'2023 - Feb'2024",
+    date: " Nov'2023 - Present",
   },
   {
     title: "Higher Secondary Course",
