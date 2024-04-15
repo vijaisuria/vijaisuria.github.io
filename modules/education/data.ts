@@ -37,7 +37,7 @@ export const educationData = [
     title: "B.E Computer Science",
     institute: "MIT, Anna University",
     location: "Chennai, India",
-    grade: "CGPA: 9.53/10",
+    grade: "CGPA: 9.59/10",
     achievement:
       "A perennial top 10 achiever, consistently excelling in academic pursuits.",
     icon: React.createElement(LuGraduationCap),

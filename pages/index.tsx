@@ -25,7 +25,7 @@ export default function HomePage() {
 
       <About />
 
-      <div className="md:h-[30vh]" />
+      <div className="md:h-[50vh]" />
 
       <ProjectsList />
 
