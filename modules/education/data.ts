@@ -39,7 +39,7 @@ export const educationData = [
     location: "Chennai, India",
     grade: "CGPA: 9.59/10",
     achievement:
-      "A perennial top 10 achiever, consistently excelling in academic pursuits.",
+      "A perennial top 5 achiever, consistently excelling in academic pursuits.",
     icon: React.createElement(LuGraduationCap),
     date: " Oct'2021 - Jul'2025",
   },

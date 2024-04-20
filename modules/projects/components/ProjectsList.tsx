@@ -32,8 +32,9 @@ seamless convenience."
           <Project
             title="E-medical Management Sysytem"
             description="A complete website to provide medical services mainly during tough
-time like COVID-19 by online mode."
-            demo="https://emedicals.000webhostapp.com/"
+  time like COVID-19 by online mode."
+            //demo="https://emedicals.000webhostapp.com/"
+            demo="nil"
             github="https://github.com/vijaisuria/emedicals"
           />
           <Project

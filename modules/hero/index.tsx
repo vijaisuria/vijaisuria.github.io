@@ -79,7 +79,11 @@ const Hero = () => {
         >
           Projects
         </button>
-        <a className="scale-btn" href="resume.html" target="_blank">
+        <a
+          className="scale-btn"
+          href="https://drive.google.com/file/d/1Wr8cUIosnF0xmqqkBVSBlS6mO_433czt/view?usp=drive_link"
+          target="_blank"
+        >
           Resume
         </a>
         <button

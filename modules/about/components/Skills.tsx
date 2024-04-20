@@ -36,7 +36,7 @@ import mongoDB from "@/public/svg/mongodb.svg";
 import mongoDBLight from "@/public/svg/mongodb-light.svg";
 import oracle from "@/public/svg/oracle.svg";
 
-import docker from "@/public/svg/docker.svg";
+import azure from "@/public/svg/azure.svg";
 
 const SkillBadge = ({
   svg,
@@ -127,12 +127,7 @@ const Skills = () => {
       <SkillBadge theme={theme} svg={postgres} name="PostgresSQL" />
       <SkillBadge theme={theme} svg={oracle} name="Oracle" />
 
-      <SkillBadge
-        theme={theme}
-        svg={docker}
-        name="docker"
-        className="h-7 w-max lg:h-10"
-      />
+      <SkillBadge theme={theme} svg={azure} name="azure" />
     </div>
   );
 };
